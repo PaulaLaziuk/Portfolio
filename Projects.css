@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,500;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,500;1,800&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+html {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* nav styling*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: black;
+    text-decoration:none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: white;
+    border-bottom: 3px #373F47 solid;
+    background-image: url(./images/IMG_2015.png);
+}
+
+.logo {
+    cursor: pointer;
+    order: 1;
+    margin-right: 30px;
+    height: 3.5rem;
+}
+
+nav {
+    order: 2;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color:white;
+}
+
+.nav_links li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.contact {
+    order:3;
+}
+.contact button {
+    margin-left: 20px;
+    padding: 5px 20px;
+    border: 2px #244B74 solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+    background-color: white;
+}
+
+.contact button:hover {
+    background-color: #244B74;
+    border: 2px #244B74 solid;
+    color: white;
+}
+
+/*body styling*/
+
+.my_projects{
+    padding-bottom: 50px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito";
+}
+
+.my_projects h1{
+    font-weight: 100;
+    margin: 5%;
+    font-size: 32px;
+}
+
+.project1{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    width: 80%;
+    border: 2px #657C9A solid;
+}
+
+.project1 .image_container{
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px 0 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+
+}
+
+.project1 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project1 .project1desc{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 25px 25px 0;
+    text-align: left;
+}
+
+.project1 .project1desc h2{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.project1 .project1desc p{
+    min-width:4px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.FDA button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.FDA button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
+.project2{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    width: 80%;
+    border: 2px #657C9A solid;
+}
+
+.project2 .image_container{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    padding: 3%;
+    border-radius: 25px;
+}
+
+.project2 img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project2 .project2desc{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: left;
+}
+
+.project2 .project2desc h2{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.project2 .project2desc p{
+    min-width:4px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.Roomies button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.Roomies button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
+.project3{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
+    width: 80%;
+    border: 2px #657C9A solid;
+}
+
+.project3 .image_container{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px 0 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.project3 img{
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.project3 .project3desc{
+    width: 50%;
+    /*min-width: 472px;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 25px 25px 0;
+    text-align: left;
+}
+
+.project3 .project3desc h2{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.project3 .project3desc p{
+    min-width:4px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.TravelPoints button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3x ease 0s;
+    color: black;
+}
+
+.TravelPoints button:hover {
+    background-color: #657C9A;
+    border: 1px #657C9A solid;
+    color: white;
+}
+
+.seeMore h4{
+    font-size:24px;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+    cursor:pointer;
+    font-weight: 100;
+}
+.seeMore img{
+    height:2rem;
+    cursor:pointer;
+}
+
+/* footer style */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border-top: 3px #373F47 solid;
+    background-color: white;
+    background-image: url(./images/IMG_2015.png);
+    height:8rem;
+}
+
+.footer-container p {
+    padding-top: 2%;
+    font-size: 10px;
+}
+
+.footer_links {
+    list-style: none;
+    border-radius: 20px;
+    /*padding-top: 0.5em;*/
+    /*border: 3px #373F47 solid;*/
+}
+
+.footer_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer_links li a {
+    transition: all 0.3s ease 0s;
+    height: 2rem;
+    width: auto;
+}
+
+.footer_links li a img {
+    height: 2rem;
+    width: auto;
+}
+
+.footer_links li a:hover {
+    color: #244B74;
+    text-decoration: underline;
+}
+
+.footer_img{
+    height: 3rem;
+    width: auto;
+    margin-top: 1rem;
+    padding: 5px;
+    border: 3px #373F47 solid;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .project1{
+        display: flex;
+        flex-direction: column;
+        height: 675px;
+    }
+    
+    .project1 .image_container{
+        width: 100%;
+        border-radius: 25px;
+        height: 50%;
+    
+    }
+    
+    .project1 .project1desc{
+        width: 100%;
+        height: 50%;
+        border-radius: 25px;
+    }
+
+    .project2{
+        display: flex;
+        flex-direction: column;
+        height: 675px;
+    }
+    
+    .project2 .image_container{
+        width: 100%;
+        border-radius: 25px;
+        height: 50%;
+    
+    }
+    
+    .project2 .project2desc{
+        width: 100%;
+        border-radius: 25px;
+        height: 50%;
+    }
+
+    .project3{
+        display: flex;
+        flex-direction: column;
+        height: 675px;
+    }
+    
+    .project3 .image_container{
+        width: 100%;
+        border-radius: 25px;
+        height: 50%;
+    
+    }
+    
+    .project3 .project3desc{
+        width: 100%;
+        border-radius: 25px;
+        height: 50%;
+    }
+}
+
+/*@media screen and (max-width: 990px){
+    .my_projects{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .my_projects{
+        grid-template-columns: 1fr;
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width:px){
+    .project1{
+        flex-direction: column; 
+    }
+}*/
