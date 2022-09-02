@@ -124,7 +124,6 @@ nav {
     font-size: 2rem;
     margin-bottom: 1.25rem;
     font-weight: 200;
-
 }
 
 .container .info h2 {
@@ -222,25 +221,25 @@ nav {
     align-items: center;
 }
 
-.proj1_text:hover{
-    cursor:pointer;
-    font-weight: 300;
-}
-
 .proj1_text h3{
     font-weight: 100;
 }
 
 .proj1_text h3:hover{
     font-weight: 300;
+    cursor: pointer;
+}
+
+.proj1_button button{
+    background-color: white;
+    border: none;
 }
 
 .proj1_text p{
     text-align: center;
     font-size: 16px;
     font-weight: 100;
-    margin-top: 1%;
-    padding: 1%;
+    margin: 2%;
 }
 
 .project2{
@@ -284,25 +283,25 @@ nav {
     align-items: center;
 }
 
-.proj2_text:hover{
-    cursor:pointer;
-    font-weight: 300;
-}
-
 .proj2_text h3{
     font-weight: 100;
 }
 
 .proj2_text h3:hover{
     font-weight: 300;
+    cursor: pointer;
+}
+
+.proj2_button button{
+    background-color: white;
+    border: none;
 }
 
 .proj2_text p{
     text-align: center;
     font-size: 16px;
     font-weight: 100;
-    margin-top: 1%;
-    padding: 3%;
+    margin: 2%;
 }
 
 .project3{
@@ -349,25 +348,25 @@ nav {
     align-items: center;
 }
 
-.proj3_text:hover{
-    cursor:pointer;
-    font-weight: 300;
-}
-
 .proj3_text h3{
     font-weight: 100;
 }
 
 .proj3_text h3:hover{
     font-weight: 300;
+    cursor: pointer;
+}
+
+.proj3_button button{
+    background-color: white;
+    border: none;
 }
 
 .proj3_text p{
     text-align: center;
     font-size: 16px;
     font-weight: 100;
-    margin-top: 1%;
-    padding: 3%;
+    margin: 2%;
 }
 /* footer style */
 

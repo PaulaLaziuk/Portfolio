@@ -81,6 +81,17 @@ nav {
 
 /*body styling*/
 
+.back{
+    margin-top: 2.5rem;
+    margin-left: 10%;
+}
+
+.back_button{
+    background-color: white;
+    border: none;
+    cursor:pointer;
+    font-size: 16px;
+}
 
 .case_study{
     display: flex;
@@ -94,18 +105,19 @@ nav {
     align-items: center;
     justify-content: center;
     width: 80%;
-    background-size:contain;
+    background-image: url("images/background.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 3%;
-    margin-top:7.5%;
+    margin-top:2.5rem;
+    border-radius: 30px;
 }
 
 .case_intro{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
 }
 
 .header_title{
@@ -113,11 +125,16 @@ nav {
     font-size: 28px;
     font-weight: 100;
     padding:2%;
-    padding-right:10%;
+    padding-right: 10%;
 }
 
 .header_title h1{
-    font-weight: 100;
+    width: 15rem;
+    font-weight: 300;
+    color: #244B74;
+    background-color: white;
+    padding: 2%;
+    border-radius: 30px;
 }
 
 .header_image{
@@ -130,6 +147,7 @@ nav {
 
 .summary{
     margin: 1%;
+    width: 80%;
 }
 
 .summary h4{
@@ -161,6 +179,7 @@ nav {
 
 .summary h5:hover{
     font-weight: 300;
+    text-decoration: underline;
 }
 
 .summary_table{
@@ -176,7 +195,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #6E8EA7;
-    width: 15rem;
+    min-width: 15rem;
     padding: 2%;
     border-radius: 30px;
 }
@@ -185,7 +204,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: #244B74;
-    width: 10rem;
+    min-width: 10rem;
     padding: 2%;
     border-radius: 30px;
 }
@@ -225,10 +244,17 @@ nav {
     text-align: center;
     margin: 5%;
     font-weight: 100;
+    color: white;
+    background-color: #244B74;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
 }
 
 .overview_text{
-    margin:2%
+    margin:2%;
 }
 
 .overview_text h3{
@@ -264,13 +290,17 @@ nav {
 
 .process{
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .process h2{
     text-align: center;
-    margin-top:5%;
-    margin-bottom:5%;
-    font-weight: 100;
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+    font-weight: 300;
+    color: #244B74;
 }
 
 .process h3{
@@ -283,6 +313,9 @@ nav {
 .process p{
     font-size: 18px;
     font-weight: 100;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom:5%;
 }
 
 .research {
@@ -290,8 +323,8 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .insight1 {
@@ -331,27 +364,49 @@ nav {
 }
 
 .persona h4{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5rem;
+    margin-bottom:2.5rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.persona_img{
+    display: flex;
+    justify-content: center;
 }
 
 .persona_img img{
-    height: 30rem;
+    width: 80%;
+    object-fit: contain;
 }
 
 .competitor_analysis {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .competitor_analysis h4{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.competitor_analysis p{
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.competitor_analysis_img{
+    display: flex;
+    justify-content: center;
 }
 
 .competitor_analysis_img img{
-    height:30rem;
+    width: 80%;
+    object-fit: contain;
 }
 
 
@@ -363,54 +418,79 @@ nav {
 }
 .ideation h2{
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-weight: 100;
+    margin-top: 7.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    color: #244B74;
 }
 
 .user_flow{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .user_flow h4{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.user_flow p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
 }
 
 .user_flow_img img{
     object-fit: contain;
-    height: 22.5rem;
+    width: 100%;
 }
 
 .user_journey{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .user_journey h4{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.user_journey p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
 }
 
 .user_journey_img img{
     object-fit: contain;
-    height: 22.5rem;
+    width: 100%;
 }
 
 .prototype{
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .prototype h2{
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    font-weight: 300;
+    color: #244B74;
+}
+
+.prototype p{
     font-weight: 100;
+    font-size: 16px;
+    text-align: left;
 }
 
 .low_v_high1{
@@ -444,6 +524,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .low_v_high2{
@@ -476,6 +557,8 @@ nav {
     font-weight: 100;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .low_v_high3{
@@ -508,6 +591,8 @@ nav {
     font-weight: 100;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .testing{
@@ -529,6 +614,8 @@ nav {
     margin-top:5%;
     margin-bottom:5%;
     font-weight: 100;
+    font-weight: 300;
+    color: #244B74;
 }
 
 .testing p{
@@ -567,6 +654,12 @@ nav {
     justify-content: center;
 }
 
+.lh1_text h6{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
 .lh_test2{
     display: flex;
     flex-direction: row;
@@ -587,6 +680,12 @@ nav {
 .lh2_text{
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.lh2_text h6{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1rem;
 }
 
 .lh_test3{
@@ -611,6 +710,12 @@ nav {
     padding-right: 5%;
 }
 
+.lh3_text h6{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
 .accessibility h2{
     text-align: center;
     font-weight: 100;
@@ -623,6 +728,24 @@ nav {
     justify-content: center;
 }
 
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid h2{
+    font-weight: 100;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.grid img{
+    width: 80%;
+    object-fit: contain;
+}
+
 .final_clickable_product{
     display: flex;
     flex-direction: column;
@@ -631,8 +754,8 @@ nav {
 
 .final_clickable_product h2{
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
     font-weight: 100;
 }
 
@@ -649,6 +772,7 @@ nav {
 .next_steps p{
     font-weight: 100;
     font-size: 16px;
+    line-height: 1.5rem;
 }
 
 .lessons_learned h3{
@@ -661,6 +785,20 @@ nav {
     font-weight: 100;
     font-size: 16px;
     margin-bottom: 5%;
+}
+
+.bottom_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.button1, .button2, .button3{
+    background-color: white;
+    border: none;
+    cursor:pointer;
 }
 
 /* footer style */

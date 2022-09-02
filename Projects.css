@@ -112,6 +112,7 @@ nav {
     -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
     width: 80%;
     border: 2px #657C9A solid;
+    margin-bottom: 5rem;
 }
 
 .project1 .image_container{
@@ -155,8 +156,6 @@ nav {
 }
 
 .FDA button{
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding: 10px 25px;
     background-color: white;
     border: 1px white solid;
@@ -164,6 +163,7 @@ nav {
     cursor: pointer;
     transition: all 0.3x ease 0s;
     color: black;
+    margin-top: 1rem;
 }
 
 .FDA button:hover {
@@ -184,6 +184,7 @@ nav {
     -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
     width: 80%;
     border: 2px #657C9A solid;
+    margin-bottom: 5rem;
 }
 
 .project2 .image_container{
@@ -225,8 +226,6 @@ nav {
 }
 
 .Roomies button{
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding: 10px 25px;
     background-color: white;
     border: 1px white solid;
@@ -234,6 +233,7 @@ nav {
     cursor: pointer;
     transition: all 0.3x ease 0s;
     color: black;
+    margin-top: 1rem;
 }
 
 .Roomies button:hover {
@@ -254,6 +254,7 @@ nav {
     -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.39);
     width: 80%;
     border: 2px #657C9A solid;
+    margin-bottom: 2.5rem;
 }
 
 .project3 .image_container{
@@ -301,8 +302,6 @@ nav {
 }
 
 .TravelPoints button{
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding: 10px 25px;
     background-color: white;
     border: 1px white solid;
@@ -310,6 +309,7 @@ nav {
     cursor: pointer;
     transition: all 0.3x ease 0s;
     color: black;
+    margin-top: 1rem;
 }
 
 .TravelPoints button:hover {
@@ -318,7 +318,7 @@ nav {
     color: white;
 }
 
-.seeMore h4{
+/* .seeMore h4{
     font-size:24px;
     margin-top: 5%;
     margin-bottom: 1rem;
@@ -328,7 +328,7 @@ nav {
 .seeMore img{
     height:2rem;
     cursor:pointer;
-}
+} */
 
 /* footer style */
 
