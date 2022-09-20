@@ -130,6 +130,7 @@ nav {
 .project1 img{
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
 }
 
 .project1 .project1desc{
@@ -155,7 +156,7 @@ nav {
     font-weight: 100;
 }
 
-.FDA button{
+.ACGA button{
     padding: 10px 25px;
     background-color: white;
     border: 1px white solid;
@@ -166,7 +167,7 @@ nav {
     margin-top: 1rem;
 }
 
-.FDA button:hover {
+.ACGA button:hover {
     background-color: #657C9A;
     border: 1px #657C9A solid;
     color: white;
