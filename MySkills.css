@@ -122,7 +122,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     grid-gap: 1rem;
     padding: 1rem 80px;
@@ -137,6 +137,9 @@ body{
 
 .skill_box p{
     font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+
 }
 
 .skill_box:hover > .skill_title:after, .skill_box:hover > .skill_title:before{
