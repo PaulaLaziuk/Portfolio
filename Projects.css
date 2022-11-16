@@ -103,7 +103,7 @@ nav {
 .project1{
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 25rem;
     background-color: white;
     position: relative;
     border-radius: 25px;
@@ -177,7 +177,7 @@ nav {
 .project2{
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 25rem;
     background-color: white;
     position: relative;
     border-radius: 25px;
@@ -248,7 +248,7 @@ nav {
 .project3{
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 25rem;
     background-color: white;
     position: relative;
     border-radius: 25px;
