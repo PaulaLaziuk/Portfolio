@@ -102,8 +102,8 @@ body{
 }
 
 .skills h1{
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 100;
 }
 
 .skills:after{
@@ -113,7 +113,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     height: 4px;
-    width: 8.25rem;
+    width: 130px;
     background-color:#373F47;
     border-radius: 2px;
 }

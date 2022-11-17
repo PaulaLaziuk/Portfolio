@@ -84,6 +84,11 @@ nav {
 
 /*body styling*/
 
+.construction{
+    color: red;
+    font-weight: 700;
+}
+
 .my_projects{
     padding-bottom: 50px;
     text-align: center;
