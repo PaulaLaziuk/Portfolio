@@ -136,6 +136,14 @@ nav {
     text-align: center;
 }
 
+.container .info h3{
+    font-size: 1.0rem;
+    margin-bottom: 0.25rem;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
 /* .container .info p {
     font-size: 1rem; 
     margin-bottom: 0.75rem;
@@ -275,6 +283,7 @@ nav {
 
 .proj2_img img{
     height: 80%;
+    min-width: 281px;
 }
 
 .proj2_text{
